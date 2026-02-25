@@ -1,0 +1,90 @@
+[
+  {
+    "id": "HR-01",
+    "county": "Zagrebačka županija",
+    "dominantParty": "Hrvatska demokratska zajednica (HDZ)",
+    "activities": [
+      "Subvencioniranje poljoprivredne proizvodnje",
+      "Izgradnja regionalnih vodoopskrbnih sustava",
+      "Povećanje energetske učinkovitosti javnih zgrada"
+    ],
+    "investmentLevel": 75
+  },
+  {
+    "id": "HR-02",
+    "county": "Krapinsko-zagorska županija",
+    "dominantParty": "Socijaldemokratska partija Hrvatske (SDP)",
+    "activities": [
+      "Ulaganje u toplički turizam",
+      "Potpora malim i srednjim obrtnicima",
+      "Digitalizacija županijske uprave"
+    ],
+    "investmentLevel": 65
+  },
+  {
+    "id": "HR-03",
+    "county": "Sisačko-moslavačka županija",
+    "dominantParty": "Hrvatska demokratska zajednica (HDZ)",
+    "activities": [
+      "Obnova nakon potresa",
+      "Revitalizacija industrijskih zona",
+      "Poticanje povratka stanovništva"
+    ],
+    "investmentLevel": 85
+  },
+  {
+    "id": "HR-08",
+    "county": "Primorsko-goranska županija",
+    "dominantParty": "Socijaldemokratska partija Hrvatske (SDP)",
+    "activities": [
+      "Modernizacija riječke luke",
+      "Razvoj sustava socijalne skrbi",
+      "Potpora projektima 'Rijeka - Europska prijestolnica kulture'"
+    ],
+    "investmentLevel": 80
+  },
+  {
+    "id": "HR-14",
+    "county": "Osječko-baranjska županija",
+    "dominantParty": "Hrvatska demokratska zajednica (HDZ)",
+    "activities": [
+      "Projekt Slavonija, Baranja i Srijem",
+      "Izgradnja sustava navodnjavanja",
+      "Razvoj IT parka u Osijeku"
+    ],
+    "investmentLevel": 90
+  },
+  {
+    "id": "HR-17",
+    "county": "Splitsko-dalmatinska županija",
+    "dominantParty": "Hrvatska demokratska zajednica (HDZ)",
+    "activities": [
+      "Poboljšanje cestovne infrastrukture prema zaleđu",
+      "Razvoj eko-turizma",
+      "Podrška razvoju Tehnološkog parka Split"
+    ],
+    "investmentLevel": 70
+  },
+  {
+    "id": "HR-18",
+    "county": "Istarska županija",
+    "dominantParty": "IDS - Istarski demokratski sabor",
+    "activities": [
+      "Promocija istarskog identiteta i dvojezičnosti",
+      "Potpuna digitalizacija javnih usluga",
+      "Ulaganje u ekološku poljoprivredu i vinarstvo"
+    ],
+    "investmentLevel": 95
+  },
+  {
+    "id": "HR-21",
+    "county": "Grad Zagreb",
+    "dominantParty": "Možemo!",
+    "activities": [
+      "Potpuna reforma sustava gospodarenja otpadom",
+      "Proširenje pješačkih zona u centru",
+      "Energetska obnova škola i bolnica"
+    ],
+    "investmentLevel": 88
+  }
+]

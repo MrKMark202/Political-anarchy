@@ -1,0 +1,361 @@
+[
+  {
+    "name": "Hrvatska demokratska zajednica (HDZ)",
+    "ideology": "Kršćanska demokracija / Konzervativizam",
+    "keyPolicies": [
+      {
+        "area": "Gospodarstvo",
+        "position": "Slobodno tržište s državnim intervencijama, poticanje poduzetništva, privlačenje stranih investicija"
+      },
+      {
+        "area": "Zdravstvo",
+        "position": "Javno zdravstvo s elementima privatnog sektora, reforma bolničkog sustava"
+      },
+      {
+        "area": "Obrazovanje",
+        "position": "Tradicionalni kurikulum, vjeronauk u školama, podrška strukovnom obrazovanju"
+      },
+      {
+        "area": "Okoliš",
+        "position": "Energetska neovisnost, podrška obnovljivim izvorima uz postupni prijelaz"
+      },
+      {
+        "area": "Demografija",
+        "position": "Pronatalitetna politika, poticaji za mlade obitelji, suzbijanje iseljavanja"
+      },
+      {
+        "area": "Vanjska politika",
+        "position": "Snažna proeuropska i proatlantska orijentacija, podrška NATO-u i EU-u"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Pobjedili s 66 mandata, formirali vladu s partnerima",
+        "obecanja": [
+          "Reforma zdravstva",
+          "Oporavak gospodarstva nakon COVID-a",
+          "Digitalizacija javne uprave"
+        ],
+        "ispunjeno": "Djelomično ispunjeno — gospodarski oporavak ostvaren, zdravstvena reforma minimalna, digitalizacija započeta ali s kašnjenjem"
+      },
+      {
+        "godina": 2021,
+        "tip": "Lokalni izbori",
+        "rezultat": "Izgubili Zagreb i Split, zadržali većinu županija",
+        "obecanja": ["Decentralizacija", "Ulaganje u lokalnu infrastrukturu"],
+        "ispunjeno": "Slabo ispunjeno — decentralizacija nije provedena, infrastrukturni projekti sporiji od obećanog"
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Pobjedili s 61 mandatom, formirali novu vladu",
+        "obecanja": [
+          "Uvođenje eura — ispunjeno 2023.",
+          "Ulazak u Schengen — ispunjeno 2023.",
+          "Povećanje plaća u javnom sektoru"
+        ],
+        "ispunjeno": "Većinom ispunjeno — euro i Schengen uspješno provedeni, plaće povećane ali uz inflaciju"
+      }
+    ]
+  },
+  {
+    "name": "Socijaldemokratska partija Hrvatske (SDP)",
+    "ideology": "Socijaldemokracija",
+    "keyPolicies": [
+      {
+        "area": "Gospodarstvo",
+        "position": "Progresivno oporezivanje, jačanje socijalne države, zaštita radničkih prava"
+      },
+      {
+        "area": "Zdravstvo",
+        "position": "Univerzalno javno zdravstvo, povećanje ulaganja u zdravstveni sustav"
+      },
+      {
+        "area": "Obrazovanje",
+        "position": "Besplatno obrazovanje, modernizacija kurikuluma, sekularno školstvo"
+      },
+      {
+        "area": "Okoliš",
+        "position": "Zelena tranzicija, ulaganje u obnovljive izvore energije, zaštita prirode"
+      },
+      {
+        "area": "Demografija",
+        "position": "Socijalne mjere za mlade, pristupačno stanovanje, veća minimalna plaća"
+      },
+      {
+        "area": "Građanska prava",
+        "position": "Zaštita manjinskih prava, LGBTQ+ prava, rodna ravnopravnost"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Restart koalicija osvojila 41 mandat, ostali u oporbi",
+        "obecanja": [
+          "Reforma pravosuđa",
+          "Besplatni udžbenici za sve učenike",
+          "Povećanje minimalne plaće na 4000 kn"
+        ],
+        "ispunjeno": "Nisu bili na vlasti — obećanja nisu mogla biti provedena, ali su zagovarali iz oporbe"
+      },
+      {
+        "godina": 2021,
+        "tip": "Lokalni izbori",
+        "rezultat": "Slabi rezultati, izgubili tradicionalna uporišta",
+        "obecanja": ["Transparentna lokalna uprava", "Javni stanovi za mlade"],
+        "ispunjeno": "Ograničeno — tamo gdje su bili na vlasti, rezultati mješoviti"
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 42 mandata u koaliciji, ostali u oporbi",
+        "obecanja": [
+          "Porezna reforma za srednji sloj",
+          "Jačanje javnog zdravstva",
+          "Besplatni vrtići"
+        ],
+        "ispunjeno": "U oporbi — obećanja ostaju neprovedena, aktivno kritiziraju vladajuću politiku"
+      }
+    ]
+  },
+  {
+    "name": "Možemo!",
+    "ideology": "Zelena ljevica / Progresivizam",
+    "keyPolicies": [
+      {
+        "area": "Gospodarstvo",
+        "position": "Pravedna raspodjela bogatstva, porez na bogatstvo, podrška zadrugama"
+      },
+      {
+        "area": "Zdravstvo",
+        "position": "Potpuno javno zdravstvo, besplatna primarna zdravstvena zaštita"
+      },
+      {
+        "area": "Obrazovanje",
+        "position": "Besplatno obrazovanje na svim razinama, reforma školskog sustava"
+      },
+      {
+        "area": "Okoliš",
+        "position": "Klimatska neutralnost do 2040., zabrana fosilnih goriva, masovno pošumljavanje"
+      },
+      {
+        "area": "Stanovanje",
+        "position": "Javni stambeni fond, regulacija cijena najma, oporezivanje praznih stanova"
+      },
+      {
+        "area": "Građanska prava",
+        "position": "Snažna zaštita ljudskih prava, legalizacija istospolnih brakova, transparentnost vlasti"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Zeleno-lijeva koalicija osvojila 7 mandata",
+        "obecanja": ["Zelena tranzicija", "Transparentnost javne uprave", "Pristupačno stanovanje"],
+        "ispunjeno": "Iz parlamenta zagovarali zelene politike, ali bez izvršne moći"
+      },
+      {
+        "godina": 2021,
+        "tip": "Lokalni izbori",
+        "rezultat": "Veliki uspjeh — Tomislav Tomašević izabran za gradonačelnika Zagreba",
+        "obecanja": [
+          "Čišćenje Grada Zagreba od korupcije",
+          "Reforma Holdinga",
+          "Zeleni Zagreb — biciklističke staze, javni prijevoz"
+        ],
+        "ispunjeno": "Djelomično ispunjeno — Holding reformiran, komunalne usluge poboljšane, biciklističke staze u izgradnji, ali mnogi projekti još u tijeku"
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 10 mandata, ostali u oporbi",
+        "obecanja": [
+          "Porez na prazne stanove",
+          "Zelena energetska tranzicija",
+          "Reform javne uprave"
+        ],
+        "ispunjeno": "U oporbi — obećanja zagovaraju iz Sabora, na razini Zagreba kontinuirano provode reforme"
+      }
+    ]
+  },
+  {
+    "name": "Most nezavisnih lista",
+    "ideology": "Centrizam / Kršćanska demokracija",
+    "keyPolicies": [
+      {
+        "area": "Gospodarstvo",
+        "position": "Porezna reforma, smanjenje birokracije, podrška malim i srednjim poduzetnicima"
+      },
+      {
+        "area": "Zdravstvo",
+        "position": "Reforma zdravstvenog sustava, smanjenje lista čekanja, decentralizacija"
+      },
+      {
+        "area": "Obrazovanje",
+        "position": "Modernizacija obrazovnog sustava, dualno obrazovanje po uzoru na Austriju"
+      },
+      {
+        "area": "Okoliš",
+        "position": "Pragmatična ekološka politika, podrška obnovljivim izvorima"
+      },
+      {
+        "area": "Pravosuđe",
+        "position": "Reforma pravosuđa, borba protiv korupcije, transparentnost javne uprave"
+      },
+      {
+        "area": "Demografija",
+        "position": "Mjere za zadržavanje mladih, poticaji za povratak iseljenika"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 8 mandata, koalicijski partner HDZ-u",
+        "obecanja": ["Reforma javne uprave", "Smanjenje broja agencija", "Antikorupcijske mjere"],
+        "ispunjeno": "Slabo ispunjeno — kao koalicijski partneri imali ograničen utjecaj, većina reformi nije provedena"
+      },
+      {
+        "godina": 2021,
+        "tip": "Lokalni izbori",
+        "rezultat": "Umjereni rezultati, zadržali uporišta u Dalmaciji",
+        "obecanja": ["Infrastrukturni razvoj Dalmacije", "Transparentnost lokalne vlasti"],
+        "ispunjeno": "Djelomično — neki infrastrukturni projekti pokrenuti, transparentnost poboljšana na lokalnoj razini"
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 11 mandata, ponovno koalicijski partner HDZ-u",
+        "obecanja": [
+          "Reforma obrazovanja",
+          "Porezno rasterećenje građana",
+          "Digitalizacija uprave"
+        ],
+        "ispunjeno": "Prerano za ocjenu — tek formirana vlada, ali povijesno slaba provedba obećanja iz pozicije koalicijskog partnera"
+      }
+    ]
+  },
+  {
+    "name": "Domovinski pokret",
+    "ideology": "Nacionalni konzervativizam / Desni populizam",
+    "keyPolicies": [
+      {
+        "area": "Gospodarstvo",
+        "position": "Zaštita domaće proizvodnje, reindustrijalizacija, niži porezi za domaće poduzetnike"
+      },
+      {
+        "area": "Zdravstvo",
+        "position": "Jačanje javnog zdravstva uz očuvanje tradicionalnih vrijednosti u medicinskoj etici"
+      },
+      {
+        "area": "Obrazovanje",
+        "position": "Nacionalni kurikulum, domoljubni odgoj, zaštita tradicionalnih vrijednosti u školstvu"
+      },
+      {
+        "area": "Okoliš",
+        "position": "Energetska neovisnost, podrška domaćim energetskim izvorima uključujući nuklearnu energiju"
+      },
+      {
+        "area": "Imigracija",
+        "position": "Stroga kontrola imigracije, zaštita granica, suverenitet u migracijskoj politici"
+      },
+      {
+        "area": "Vanjska politika",
+        "position": "Eurokritičnost, zaštita nacionalnog suvereniteta, kritika federalizacije EU-a"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Prvi nastup, osvojili 16 mandata pod vodstvom Miroslava Škore",
+        "obecanja": [
+          "Borba protiv korupcije",
+          "Zaštita nacionalnog identiteta",
+          "Reforma pravosuđa"
+        ],
+        "ispunjeno": "U oporbi — obećanja nisu provedena, stranka prošla kroz unutarnje podjele i raskole"
+      },
+      {
+        "godina": 2021,
+        "tip": "Lokalni izbori",
+        "rezultat": "Skromni rezultati na lokalnim izborima",
+        "obecanja": ["Lokalna samouprava bliža građanima", "Zaustavljanje iseljavanja"],
+        "ispunjeno": "Minimalno ispunjeno — nije osvojila značajne lokalne pozicije"
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 14 mandata, dio vladajuće koalicije",
+        "obecanja": [
+          "Strožija imigracijska politika",
+          "Podrška hrvatskim braniteljima",
+          "Niži porezi"
+        ],
+        "ispunjeno": "Prerano za ocjenu — tek ušli u vladu, ali koalicijski kompromisi ograničavaju provedbu"
+      }
+    ]
+  },
+  {
+    "name": "IDS - Istarski demokratski sabor",
+    "ideology": "Regionalizam / Socijalni liberalizam",
+    "keyPolicies": [
+      {
+        "area": "Gospodarstvo",
+        "position": "Decentralizacija, jačanje regionalne samouprave, podrška turizmu i lokalnom gospodarstvu"
+      },
+      {
+        "area": "Zdravstvo",
+        "position": "Dostupna zdravstvena skrb u svim regijama, decentralizacija zdravstvenog sustava"
+      },
+      {
+        "area": "Obrazovanje",
+        "position": "Višejezično obrazovanje, očuvanje regionalnih identiteta i kultura"
+      },
+      { "area": "Okoliš", "position": "Zaštita Jadrana i prirodnih resursa, održivi turizam" },
+      {
+        "area": "Regionalna politika",
+        "position": "Fiskalna decentralizacija, veća autonomija županija i gradova"
+      },
+      {
+        "area": "Građanska prava",
+        "position": "Zaštita prava manjina, multikulturalnost, europske vrijednosti"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 3 mandata u koaliciji",
+        "obecanja": [
+          "Decentralizacija Hrvatske",
+          "Zaštita višejezičnosti u Istri",
+          "Razvoj istarskog turizma"
+        ],
+        "ispunjeno": "Djelomično — na regionalnoj razini uspješno zastupali interese Istre, ali nacionalna decentralizacija nije ostvarena"
+      },
+      {
+        "godina": 2021,
+        "tip": "Lokalni izbori",
+        "rezultat": "Dominacija u Istri, Boris Miletić reizabran za župana",
+        "obecanja": [
+          "Održivi razvoj Istre",
+          "Zaštita okoliša i Jadrana",
+          "EU fondovi za lokalnu infrastrukturu"
+        ],
+        "ispunjeno": "Većinom ispunjeno — Istra ostaje među najrazvijenijim regijama, uspješno korištenje EU fondova, ekološki projekti u tijeku"
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 1 mandat, smanjena parlamentarna prisutnost",
+        "obecanja": ["Nastavak borbe za decentralizaciju", "Zaštita regionalnih interesa"],
+        "ispunjeno": "Ograničen utjecaj na nacionalnoj razini zbog malog broja mandata, ali regionalno i dalje aktivni"
+      }
+    ]
+  }
+]
