@@ -61,23 +61,23 @@ function getAlignmentLabel(score: number): string {
     <!-- Input -->
     <section class="max-w-[1200px] mx-auto px-8 pb-16">
       <form @submit.prevent="handleSubmit" class="relative">
-        <label class="block text-xs tracking-[0.2em] uppercase text-slate mb-4 font-medium">
+        <label class="block text-[10px] tracking-[0.3em] uppercase text-black mb-6 font-bold">
           Unos stavova
         </label>
-        <div class="flex items-end gap-6">
-          <div class="flex-1">
+        <div class="flex flex-col md:flex-row items-stretch md:items-end gap-12">
+          <div class="flex-1 border-b-2 border-black">
             <input
               v-model="userInput"
               type="text"
               placeholder="Opišite svoje političke stavove ili preferencije politika..."
-              class="w-full bg-transparent border-0 border-b border-black text-lg py-3 px-0 placeholder-slate-light/50 focus:border-slate transition-colors"
+              class="w-full bg-transparent border-0 text-xl py-4 px-0 placeholder-slate-light/40 focus:ring-0 transition-colors"
               :disabled="isLoading"
             />
           </div>
           <button
             type="submit"
             :disabled="isLoading || !userInput.trim()"
-            class="border border-black px-8 py-3 text-xs tracking-[0.2em] uppercase font-medium hover:bg-black hover:text-white transition-colors disabled:opacity-30 disabled:cursor-not-allowed shrink-0"
+            class="bg-black text-white px-12 py-5 text-[10px] tracking-[0.3em] uppercase font-bold hover:bg-slate transition-colors disabled:bg-slate-light/50 disabled:cursor-not-allowed shrink-0"
           >
             {{ isLoading ? 'ANALIZIRAM...' : 'ANALIZIRAJ' }}
           </button>
@@ -87,10 +87,10 @@ function getAlignmentLabel(score: number): string {
 
     <!-- Loading -->
     <section v-if="isLoading" class="max-w-[1200px] mx-auto px-8 pb-16">
-      <div class="border-t border-black pt-8">
-        <div class="flex items-center gap-3">
-          <div class="w-2 h-2 bg-black animate-pulse"></div>
-          <span class="text-xs tracking-[0.2em] uppercase text-slate"
+      <div class="border-t-4 border-black pt-8">
+        <div class="flex items-center gap-4">
+          <div class="w-1.5 h-1.5 bg-black animate-pulse"></div>
+          <span class="text-[10px] tracking-[0.3em] uppercase font-bold"
             >Obrađujem analizu podudarnosti</span
           >
         </div>
@@ -100,7 +100,7 @@ function getAlignmentLabel(score: number): string {
     <!-- Error -->
     <section v-if="errorMessage" class="max-w-[1200px] mx-auto px-8 pb-8">
       <div class="border-t border-black pt-6">
-        <p class="text-xs tracking-wide text-slate">
+        <p class="text-[10px] tracking-widest text-black">
           <span class="font-bold">GREŠKA —</span> {{ errorMessage }}
         </p>
       </div>

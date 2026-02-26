@@ -1,0 +1,254 @@
+[
+  {
+    "id": "HR031",
+    "name": "Primorsko-goranska županija",
+    "dominantParty": "SDP i partneri",
+    "color": "#ED1C24",
+    "activities": [
+      "Razvoj pomorstva",
+      "Zelena tranzicija",
+      "Socijalne usluge"
+    ],
+    "influenceScore": 85
+  },
+  {
+    "id": "HR032",
+    "name": "Ličko-senjska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Poljoprivreda i stočarstvo",
+      "Briga o mladima",
+      "Infrastruktura"
+    ],
+    "influenceScore": 75
+  },
+  {
+    "id": "HR033",
+    "name": "Zadarska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Turizam i nautika",
+      "Zdravstvena skrb",
+      "Navodnjavanje"
+    ],
+    "influenceScore": 82
+  },
+  {
+    "id": "HR034",
+    "name": "Šibensko-kninska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Energetska unija",
+      "Održivi turizam",
+      "Mladi u ruralnim područjima"
+    ],
+    "influenceScore": 78
+  },
+  {
+    "id": "HR035",
+    "name": "Splitsko-dalmatinska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Pomorska infrastruktura",
+      "Demografska revitalizacija",
+      "IT sektor"
+    ],
+    "influenceScore": 84
+  },
+  {
+    "id": "HR036",
+    "name": "Istarska županija",
+    "dominantParty": "IDS i partneri",
+    "color": "#00A14B",
+    "activities": [
+      "Regionalna autonomija",
+      "Digitalizacija",
+      "Agrarni razvoj"
+    ],
+    "influenceScore": 90
+  },
+  {
+    "id": "HR037",
+    "name": "Dubrovačko-neretvanska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Povezanost regije",
+      "Kulturna baština",
+      "Zračni transport"
+    ],
+    "influenceScore": 80
+  },
+  {
+    "id": "HR050",
+    "name": "Grad Zagreb",
+    "dominantParty": "Možemo! i SDP",
+    "color": "#99C121",
+    "activities": [
+      "Gospodarenje otpadom",
+      "Javni prijevoz",
+      "Obnova od potresa"
+    ],
+    "influenceScore": 95
+  },
+  {
+    "id": "HR065",
+    "name": "Zagrebačka županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Poduzetničke zone",
+      "Ruralni razvoj",
+      "Suradnja sa Zagrebom"
+    ],
+    "influenceScore": 72
+  },
+  {
+    "id": "HR064",
+    "name": "Krapinsko-zagorska županija",
+    "dominantParty": "SDP i partneri",
+    "color": "#ED1C24",
+    "activities": [
+      "Termalni turizam",
+      "Obrtništvo",
+      "Povećanje plaća"
+    ],
+    "influenceScore": 76
+  },
+  {
+    "id": "HR062",
+    "name": "Varaždinska županija",
+    "dominantParty": "SDP i partneri",
+    "color": "#ED1C24",
+    "activities": [
+      "Inovacije u industriji",
+      "Obrazovanje",
+      "Lokalna poljoprivreda"
+    ],
+    "influenceScore": 74
+  },
+  {
+    "id": "HR063",
+    "name": "Koprivničko-križevačka županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Gospodarska zona",
+      "Ulaganje u ceste",
+      "Socijalna pravednost"
+    ],
+    "influenceScore": 70
+  },
+  {
+    "id": "HR061",
+    "name": "Međimurska županija",
+    "dominantParty": "NPS i partneri",
+    "color": "#F39200",
+    "activities": [
+      "Poduzetnička inicijativa",
+      "Energetska učinkovitost",
+      "Zdravlje"
+    ],
+    "influenceScore": 92
+  },
+  {
+    "id": "HR021",
+    "name": "Bjelovarsko-bilogorska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Regionalni razvoj",
+      "Obrana od poplava",
+      "Nova radna mjesta"
+    ],
+    "influenceScore": 68
+  },
+  {
+    "id": "HR022",
+    "name": "Virovitičko-podravska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Drvna industrija",
+      "Prekogranična suradnja",
+      "Digitalizacija"
+    ],
+    "influenceScore": 73
+  },
+  {
+    "id": "HR023",
+    "name": "Požeško-slavonska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Voćarstvo",
+      "Potpora EU fondova",
+      "Uređenje gradova"
+    ],
+    "influenceScore": 77
+  },
+  {
+    "id": "HR024",
+    "name": "Brodsko-posavska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Metalurgija",
+      "Infrastrukturni projekti",
+      "Ekologija"
+    ],
+    "influenceScore": 71
+  },
+  {
+    "id": "HR025",
+    "name": "Osječko-baranjska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Centar IT industrije",
+      "Zelena poljoprivreda",
+      "Studentske potpore"
+    ],
+    "influenceScore": 88
+  },
+  {
+    "id": "HR026",
+    "name": "Vukovarsko-srijemska županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Memorijalni turizam",
+      "Razvoj sela",
+      "Gospodarska sigurnost"
+    ],
+    "influenceScore": 79
+  },
+  {
+    "id": "HR027",
+    "name": "Karlovačka županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Četiri rijeke ekologija",
+      "Povezanost",
+      "Ulaganje u sport"
+    ],
+    "influenceScore": 65
+  },
+  {
+    "id": "HR028",
+    "name": "Sisačko-moslavačka županija",
+    "dominantParty": "HDZ i partneri",
+    "color": "#004277",
+    "activities": [
+      "Obnova zgrada",
+      "Potpora obrtnicima",
+      "Zdravstveni turizam"
+    ],
+    "influenceScore": 69
+  }
+]
