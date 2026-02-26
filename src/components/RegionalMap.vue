@@ -137,71 +137,95 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="relative w-full h-[80vh] bg-white overflow-hidden border border-black">
-    <div ref="mapContainer" class="w-full h-full"></div>
+  <div class="flex flex-col lg:flex-row w-full min-h-[80vh] bg-white border border-black overflow-hidden shadow-sm">
+    <!-- Map Section -->
+    <div class="relative w-full lg:w-2/3 h-[50vh] lg:h-[80vh] border-b lg:border-b-0 lg:border-r border-black shrink-0">
+      <div ref="mapContainer" class="w-full h-full focus:outline-none"></div>
 
     <!-- Header Overlay -->
-    <div class="absolute top-8 left-8 z-10 bg-white border border-black p-6">
-      <h2 class="text-2xl font-black tracking-tighter text-black uppercase mb-1">Regionalni Podaci</h2>
-      <p class="text-[10px] tracking-[0.2em] uppercase font-bold text-slate-light">Izvještaj po županijama</p>
+    <div class="absolute top-4 left-4 lg:top-8 lg:left-8 z-10 bg-white border border-black p-4 lg:p-6 pointer-events-none">
+      <h2 class="text-xl lg:text-2xl font-black tracking-tighter text-black uppercase mb-1">Regionalni Podaci</h2>
+      <p class="text-[8px] lg:text-[10px] tracking-[0.2em] uppercase font-bold text-slate-light">Izvještaj po županijama</p>
     </div>
 
     <!-- Legend -->
-    <div class="absolute bottom-8 right-8 z-10 bg-white border border-black p-6 max-w-sm">
-      <h3 class="text-[10px] text-black font-black mb-4 uppercase tracking-[0.2em]">Politička Legenda (Sabor 2024)</h3>
-      <div class="space-y-3">
+    <div class="absolute bottom-4 right-4 lg:bottom-8 lg:right-8 z-10 bg-white border border-black p-4 lg:p-6 max-w-[200px] lg:max-w-xs pointer-events-none">
+      <h3 class="text-[8px] lg:text-[10px] text-black font-black mb-3 lg:mb-4 uppercase tracking-[0.2em]">Politička Legenda</h3>
+      <div class="grid grid-cols-1 gap-2.5">
         <div v-for="party in [
           { name: 'HDZ i partneri', color: '#004277' },
           { name: 'SDP i partneri', color: '#ED1C24' },
           { name: 'Možemo! i SDP', color: '#99C121' },
           { name: 'IDS i partneri', color: '#00A14B' },
           { name: 'NPS i partneri', color: '#F39200' }
-        ]" :key="party.name" class="flex items-center gap-4">
-          <div :style="{ backgroundColor: party.color }" class="w-3 h-3 shrink-0"></div>
-          <span class="text-black text-[10px] font-bold uppercase tracking-wider">{{ party.name }}</span>
+        ]" :key="party.name" class="flex items-center gap-3">
+          <div :style="{ backgroundColor: party.color }" class="w-2.5 h-2.5 shrink-0 border border-black/10"></div>
+          <span class="text-black text-[9px] font-bold uppercase tracking-wider">{{ party.name }}</span>
         </div>
       </div>
     </div>
+    </div> <!-- Close map relative container -->
 
-    <!-- Tooltip (Institutional) -->
-    <div 
-      v-if="hoveredCounty" 
-      class="fixed pointer-events-none z-50 bg-white border-2 border-black p-6 transition-all duration-75"
-      :style="{ left: `${tooltipPos.x + 20}px`, top: `${tooltipPos.y + 20}px` }"
-    >
-      <div class="mb-6">
-        <div class="flex items-center gap-3 mb-2">
-          <div :style="{ backgroundColor: hoveredCounty.color }" class="w-1.5 h-8"></div>
-          <h4 class="text-xl font-black text-black uppercase tracking-tighter leading-none">{{ hoveredCounty.name }}</h4>
+    <!-- Info Panel Section -->
+    <div class="w-full lg:w-1/3 min-h-[40vh] lg:h-[80vh] bg-white overflow-y-auto p-6 lg:p-10 flex flex-col relative z-20">
+      <div v-if="hoveredCounty" class="fade-in pb-4 lg:pb-8">
+        <div class="mb-8">
+          <div class="flex items-center gap-3 mb-3">
+            <div :style="{ backgroundColor: hoveredCounty.color }" class="w-1.5 h-10 border border-black/10 shrink-0"></div>
+            <h4 class="text-2xl lg:text-3xl font-black text-black uppercase tracking-tighter leading-none">{{ hoveredCounty.name }}</h4>
+          </div>
+          <div class="flex items-baseline gap-2 mt-4 border-b border-black pb-4">
+            <span class="text-[9px] text-slate-light uppercase font-bold tracking-[0.2em]">Dominantna stranka:</span>
+            <span class="text-sm font-black text-black uppercase">{{ hoveredCounty.dominantParty }}</span>
+          </div>
         </div>
-        <div class="flex items-baseline gap-2">
-          <span class="text-[9px] text-slate-light uppercase font-bold tracking-[0.2em]">Dominantna:</span>
-          <span class="text-xs font-black text-black uppercase">{{ hoveredCounty.dominantParty }}</span>
+
+        <div class="space-y-8">
+          <div>
+            <div class="text-[10px] text-black font-black uppercase tracking-[0.2em] mb-4">Ključne Aktivnosti</div>
+            <div class="space-y-3">
+              <template v-if="hoveredCounty.activities">
+                <div 
+                  v-for="activity in (typeof hoveredCounty.activities === 'string' ? JSON.parse(hoveredCounty.activities) : hoveredCounty.activities)" 
+                  :key="activity" 
+                  class="flex items-start gap-3"
+                >
+                  <div class="w-1.5 h-1.5 bg-black mt-1.5 shrink-0 rounded-none"></div>
+                  <span class="text-xs font-bold text-slate uppercase leading-snug">{{ activity }}</span>
+                </div>
+              </template>
+            </div>
+          </div>
+
+          <div v-if="hoveredCounty.historicalTrends" class="border-t border-border-light pt-6">
+            <div class="text-[10px] text-black font-black uppercase tracking-[0.2em] mb-3">Povijesni Trend (2000-2024)</div>
+            <p class="text-xs text-slate-light leading-relaxed font-medium mt-2">{{ hoveredCounty.historicalTrends }}</p>
+          </div>
+          
+          <div v-if="hoveredCounty.prominentHistoricalParties" class="border-t border-border-light pt-6">
+             <div class="text-[10px] text-black font-black uppercase tracking-[0.2em] mb-4">Istaknute Povijesne Stranke</div>
+             <div class="flex flex-wrap gap-2">
+                <span v-for="party in (typeof hoveredCounty.prominentHistoricalParties === 'string' ? JSON.parse(hoveredCounty.prominentHistoricalParties) : hoveredCounty.prominentHistoricalParties)" :key="party" class="text-[9px] font-bold tracking-widest uppercase border-2 border-border-light px-2.5 py-1 text-slate bg-bg-light hover:border-black transition-colors cursor-default">
+                   {{party}}
+                </span>
+             </div>
+          </div>
+        </div>
+
+        <div class="mt-8 pt-6 border-t border-black">
+          <div class="flex justify-between items-center mb-3">
+            <span class="text-[9px] text-black uppercase font-black tracking-[0.2em]">Indeks Utjecaja na Sabor</span>
+            <span class="text-sm font-black text-black">{{ hoveredCounty.influenceScore || 0 }}%</span>
+          </div>
+          <div class="w-full h-1 bg-border-light">
+            <div :style="{ width: `${Number(hoveredCounty.influenceScore) || 0}%`, backgroundColor: '#000000' }" class="h-full transition-all duration-1000 ease-out"></div>
+          </div>
         </div>
       </div>
-
-      <div class="space-y-2">
-        <div class="text-[9px] text-black font-black uppercase tracking-[0.2em] mb-3 border-b border-black pb-2">KLJUČNE AKTIVNOSTI</div>
-        <template v-if="hoveredCounty.activities">
-          <div 
-            v-for="activity in (typeof hoveredCounty.activities === 'string' ? JSON.parse(hoveredCounty.activities) : hoveredCounty.activities)" 
-            :key="activity" 
-            class="flex items-start gap-3"
-          >
-            <div class="w-1 h-1 bg-black mt-1.5"></div>
-            <span class="text-[10px] font-bold text-black uppercase leading-snug">{{ activity }}</span>
-          </div>
-        </template>
-      </div>
-
-      <div class="mt-6 pt-4 border-t border-black flex justify-between items-center gap-6">
-        <span class="text-[9px] text-black uppercase font-black tracking-[0.2em]">Indeks Utjecaja</span>
-        <div class="flex items-center gap-4">
-          <div class="w-24 h-2 bg-border-light">
-            <div :style="{ width: `${hoveredCounty.influenceScore}%`, backgroundColor: '#000000' }" class="h-full"></div>
-          </div>
-          <span class="text-[11px] font-black text-black">{{ hoveredCounty.influenceScore }}%</span>
-        </div>
+      <div v-else class="m-auto text-center opacity-40">
+        <div class="w-8 h-8 border-[3px] border-black mx-auto mb-6 transform rotate-45"></div>
+        <p class="text-[10px] uppercase font-black tracking-[0.3em] text-black">Odaberite regiju</p>
+        <p class="text-[9px] uppercase font-bold tracking-widest text-slate-light mt-3 max-w-[220px] mx-auto leading-relaxed">Pozicionirajte kursor iznad županije na karti za prikaz detalja</p>
       </div>
     </div>
   </div>
@@ -213,14 +237,12 @@ onMounted(() => {
   outline: none !important;
 }
 
-/* Custom fade animations */
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.2s ease;
+.fade-in {
+  animation: fadeIn 0.15s ease-out;
 }
 
-.v-enter-from,
-.v-leave-to {
-  opacity: 0;
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(4px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 </style>

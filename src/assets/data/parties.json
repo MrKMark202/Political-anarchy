@@ -30,33 +30,91 @@
     ],
     "izbori": [
       {
+        "godina": 2000,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 46 mandata, prešli u oporbu prvi put nakon 1990.",
+        "obecanja": [
+          "Stabilnost",
+          "Obrana nacionalnih interesa",
+          "Gospodarski rast"
+        ],
+        "ispunjeno": "Kao oporba, reorganizirali se i pozicionirali kao umjereniji desni centar."
+      },
+      {
+        "godina": 2003,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Pobjedili sa 66 mandata, formirali manjinsku vladu (Ivo Sanader)",
+        "obecanja": [
+          "Pokretanje pregovora s EU",
+          "Gospodarski oporavak",
+          "Smanjenje nezaposlenosti"
+        ],
+        "ispunjeno": "Ostvarili kandidacijski status za EU, smanjili nezaposlenost u početku, započeli izgradnju autocesta."
+      },
+      {
+        "godina": 2007,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Ponovno pobijedili sa 66 mandata, vladajuća koalicija (Ivo Sanader / Jadranka Kosor)",
+        "obecanja": [
+          "Ulazak u NATO i EU",
+          "Daljnji gospodarski rast",
+          "Borba protiv korupcije"
+        ],
+        "ispunjeno": "Ulazak u NATO (2009) i završetak pregovora s EU, ali mandat obilježen gospodarskom krizom i korupcijskim aferama."
+      },
+      {
+        "godina": 2011,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Doživjeli težak poraz, osvojili 47 mandata, prešli u oporbu.",
+        "obecanja": [
+          "Zaključivanje ugovora EU",
+          "Zaštita dostojanstva rada"
+        ],
+        "ispunjeno": "U oporbi se fokusirali na kritiku Kukuriku koalicije i nacionalne teme."
+      },
+      {
+        "godina": 2015,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Domoljubna koalicija osvojila 59 mandata, formirala vladu s Mostom (Tihomir Orešković).",
+        "obecanja": [
+          "Gospodarski rast",
+          "Porezno rasterećenje",
+          "Demografska obnova"
+        ],
+        "ispunjeno": "Vlada pala nakon nekoliko mjeseci zbog unutarnjih sukoba HDZ-a i Mosta."
+      },
+      {
+        "godina": 2016,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 61 mandat pod vodstvom Andreja Plenkovića, formirali vladu (naknadno uveli HNS).",
+        "obecanja": [
+          "Politička stabilnost",
+          "Porezna reforma",
+          "Rast zaposlenosti"
+        ],
+        "ispunjeno": "Proveli izmjene poreznog sustava, prebrodili krizu u Agrokoru i održali koalicijsku stabilnost."
+      },
+      {
         "godina": 2020,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Pobjedili s 66 mandata, formirali vladu s partnerima",
+        "rezultat": "Pobjedili s 66 mandata, formirali vladu s partnerima.",
         "obecanja": [
           "Reforma zdravstva",
           "Oporavak gospodarstva nakon COVID-a",
           "Digitalizacija javne uprave"
         ],
-        "ispunjeno": "Djelomično ispunjeno — gospodarski oporavak ostvaren, zdravstvena reforma minimalna, digitalizacija započeta ali s kašnjenjem"
-      },
-      {
-        "godina": 2021,
-        "tip": "Lokalni izbori",
-        "rezultat": "Izgubili Zagreb i Split, zadržali većinu županija",
-        "obecanja": ["Decentralizacija", "Ulaganje u lokalnu infrastrukturu"],
-        "ispunjeno": "Slabo ispunjeno — decentralizacija nije provedena, infrastrukturni projekti sporiji od obećanog"
+        "ispunjeno": "Gospodarski oporavak ostvaren, zdravstvena reforma minimalna, digitalizacija započeta ali s kašnjenjem."
       },
       {
         "godina": 2024,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Pobjedili s 61 mandatom, formirali novu vladu",
+        "rezultat": "Pobjedili s 61 mandatom, formirali novu vladu s Domovinskim pokretom.",
         "obecanja": [
-          "Uvođenje eura — ispunjeno 2023.",
-          "Ulazak u Schengen — ispunjeno 2023.",
+          "Uvođenje eura (ispunjeno 2023.)",
+          "Ulazak u Schengen (ispunjeno 2023.)",
           "Povećanje plaća u javnom sektoru"
         ],
-        "ispunjeno": "Većinom ispunjeno — euro i Schengen uspješno provedeni, plaće povećane ali uz inflaciju"
+        "ispunjeno": "Euro i Schengen uspješno provedeni. Nova vlada suočena s izazovima demografije i inflacije."
       }
     ]
   },
@@ -91,33 +149,94 @@
     ],
     "izbori": [
       {
-        "godina": 2020,
+        "godina": 2000,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Restart koalicija osvojila 41 mandat, ostali u oporbi",
+        "rezultat": "Pobjeda u koaliciji s HSLS-om. Ivica Račan (SDP) postao premijer.",
         "obecanja": [
-          "Reforma pravosuđa",
-          "Besplatni udžbenici za sve učenike",
-          "Povećanje minimalne plaće na 4000 kn"
+          "Demokratizacija društva",
+          "Izlazak iz međunarodne izolacije",
+          "Borba protiv korupcije",
+          "'Treći siječanjski put'"
         ],
-        "ispunjeno": "Nisu bili na vlasti — obećanja nisu mogla biti provedena, ali su zagovarali iz oporbe"
+        "ispunjeno": "Uspješna integracija u međunarodne asocijacije, zaustavljen gospodarski pad, ali provedene bolne reforme uz kompromise između koalicijskih partnera."
       },
       {
-        "godina": 2021,
-        "tip": "Lokalni izbori",
-        "rezultat": "Slabi rezultati, izgubili tradicionalna uporišta",
-        "obecanja": ["Transparentna lokalna uprava", "Javni stanovi za mlade"],
-        "ispunjeno": "Ograničeno — tamo gdje su bili na vlasti, rezultati mješoviti"
+        "godina": 2003,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 34 mandata u svojoj koaliciji, prešli u oporbu.",
+        "obecanja": [
+          "Nastavak reformi",
+          "Zaštita radničkih prava"
+        ],
+        "ispunjeno": "U oporbi do 2011., postali snažan kritičar HDZ-ovih vlada."
+      },
+      {
+        "godina": 2007,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 56 mandata, ostali u oporbi.",
+        "obecanja": [
+          "Smanjenje javnog duga",
+          "Oporezivanje kapitala",
+          "Besplatno školstvo i zdravstvo"
+        ],
+        "ispunjeno": "Ostali najjača oporbena stranka, Zoran Milanović preuzeo kormilo."
+      },
+      {
+        "godina": 2011,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Apsolutna pobjeda Kukuriku koalicije (80 mandata). Zoran Milanović premijer.",
+        "obecanja": [
+          "Plan 21",
+          "Spas od gospodarske krize",
+          "Reforma javne uprave",
+          "Fiskalna konsolidacija"
+        ],
+        "ispunjeno": "Uveli fiskalizaciju, fiskalno stabilizirali državu držeći deficit pod kontrolom, ali gospodarski rast je bio vrlo slab i kasno je krenuo (BDP padao do 2015)."
+      },
+      {
+        "godina": 2015,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Koalicija 'Hrvatska raste' osvojila 56 mandata, pad vlade, odlazak u oporbu.",
+        "obecanja": [
+          "Nema povratka na staro",
+          "Povećanje minimalne plaće",
+          "Obrana građanskih sloboda"
+        ],
+        "ispunjeno": "Pokušali oformiti vladu s Mostom, ali pregovori su propali."
+      },
+      {
+        "godina": 2016,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Narodna koalicija osvojila 54 mandata, ostali u oporbi. Ostavka Milanovića.",
+        "obecanja": [
+          "Siguran smjer",
+          "Porez na bogatstvo",
+          "Jačanje prava radnika"
+        ],
+        "ispunjeno": "Dugogodišnji boravak u oporbi uz unutarnje borbe pod vodstvom Davora Bernardića."
+      },
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Restart koalicija osvojila 41 mandat, ostali u oporbi.",
+        "obecanja": [
+          "Novi put",
+          "Reforma pravosuđa",
+          "Besplatni udžbenici za sve učenike"
+        ],
+        "ispunjeno": "Nisu bili na vlasti — zagovarali politike iz opozicijskih klupa."
       },
       {
         "godina": 2024,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Osvojili 42 mandata u koaliciji, ostali u oporbi",
+        "rezultat": "Koalicija Rijeke pravde osvojila 42 mandata, ostali u oporbi.",
         "obecanja": [
           "Porezna reforma za srednji sloj",
           "Jačanje javnog zdravstva",
-          "Besplatni vrtići"
+          "Besplatni vrtići",
+          "Plaće i mirovine"
         ],
-        "ispunjeno": "U oporbi — obećanja ostaju neprovedena, aktivno kritiziraju vladajuću politiku"
+        "ispunjeno": "U oporbi — politike zagovaraju iz Sabora kritizirajući treći mandat Andreja Plenkovića."
       }
     ]
   },
@@ -127,176 +246,159 @@
     "keyPolicies": [
       {
         "area": "Gospodarstvo",
-        "position": "Pravedna raspodjela bogatstva, porez na bogatstvo, podrška zadrugama"
+        "position": "Pravedna raspodjela bogatstva, stambene politike, radnička prava"
       },
       {
         "area": "Zdravstvo",
         "position": "Potpuno javno zdravstvo, besplatna primarna zdravstvena zaštita"
       },
       {
-        "area": "Obrazovanje",
-        "position": "Besplatno obrazovanje na svim razinama, reforma školskog sustava"
-      },
-      {
         "area": "Okoliš",
-        "position": "Klimatska neutralnost do 2040., zabrana fosilnih goriva, masovno pošumljavanje"
-      },
-      {
-        "area": "Stanovanje",
-        "position": "Javni stambeni fond, regulacija cijena najma, oporezivanje praznih stanova"
+        "position": "Klimatska neutralnost, odrzivi javni prijevoz, kružno gospodarstvo i gospodarenje otpadom"
       },
       {
         "area": "Građanska prava",
-        "position": "Snažna zaštita ljudskih prava, legalizacija istospolnih brakova, transparentnost vlasti"
+        "position": "Ljudska prava, rodna ravnopravnost, zaštita prava manjina i migranata, transparentnost vlasti"
       }
     ],
     "izbori": [
       {
         "godina": 2020,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Zeleno-lijeva koalicija osvojila 7 mandata",
-        "obecanja": ["Zelena tranzicija", "Transparentnost javne uprave", "Pristupačno stanovanje"],
-        "ispunjeno": "Iz parlamenta zagovarali zelene politike, ali bez izvršne moći"
+        "rezultat": "Zeleno-lijeva koalicija iznenadila osvajanjem 7 mandata.",
+        "obecanja": [
+          "Zelena tranzicija",
+          "Transparentnost javne uprave",
+          "Otpor klijentelizmu"
+        ],
+        "ispunjeno": "Nametnuli su se kao žestoka, argumentirana oporba i preuzeli dominaciju ljevice u urbanim sredinama."
       },
       {
         "godina": 2021,
         "tip": "Lokalni izbori",
-        "rezultat": "Veliki uspjeh — Tomislav Tomašević izabran za gradonačelnika Zagreba",
+        "rezultat": "Velik uspjeh. Tomislav Tomašević osvojio Grad Zagreb s velikim mandatom.",
         "obecanja": [
-          "Čišćenje Grada Zagreba od korupcije",
-          "Reforma Holdinga",
-          "Zeleni Zagreb — biciklističke staze, javni prijevoz"
+          "Transparentno vođenje Holdinga",
+          "Rješavanje problema otpada",
+          "Stambena pravednost"
         ],
-        "ispunjeno": "Djelomično ispunjeno — Holding reformiran, komunalne usluge poboljšane, biciklističke staze u izgradnji, ali mnogi projekti još u tijeku"
+        "ispunjeno": "Preokrenuli model upravljanja, stabilizirali gradske financije, ali i dalje rješavaju nagomilane probleme otpada i infrastrukture."
       },
       {
         "godina": 2024,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Osvojili 10 mandata, ostali u oporbi",
+        "rezultat": "Osvojili 10 mandata samostalno.",
         "obecanja": [
           "Porez na prazne stanove",
           "Zelena energetska tranzicija",
-          "Reform javne uprave"
+          "Moderno zdravstvo bez listi čekanja"
         ],
-        "ispunjeno": "U oporbi — obećanja zagovaraju iz Sabora, na razini Zagreba kontinuirano provode reforme"
+        "ispunjeno": "Kao snažan oporbeni klub zastupnika nastavili inzistirati na urbanim i radničkim politikama."
       }
     ]
   },
   {
     "name": "Most nezavisnih lista",
-    "ideology": "Centrizam / Kršćanska demokracija",
+    "ideology": "Konzervativizam / Desni centar",
     "keyPolicies": [
       {
-        "area": "Gospodarstvo",
-        "position": "Porezna reforma, smanjenje birokracije, podrška malim i srednjim poduzetnicima"
-      },
-      {
-        "area": "Zdravstvo",
-        "position": "Reforma zdravstvenog sustava, smanjenje lista čekanja, decentralizacija"
-      },
-      {
-        "area": "Obrazovanje",
-        "position": "Modernizacija obrazovnog sustava, dualno obrazovanje po uzoru na Austriju"
-      },
-      {
-        "area": "Okoliš",
-        "position": "Pragmatična ekološka politika, podrška obnovljivim izvorima"
-      },
-      {
         "area": "Pravosuđe",
-        "position": "Reforma pravosuđa, borba protiv korupcije, transparentnost javne uprave"
+        "position": "Snažne antikorupcijske mjere, reforma pravosuđa, neovisne institucije"
       },
       {
-        "area": "Demografija",
-        "position": "Mjere za zadržavanje mladih, poticaji za povratak iseljenika"
+        "area": "Gospodarstvo",
+        "position": "Porezno rasterećenje poduzetnika i obrtnika, smanjenje birokracije i javnog aparata"
+      },
+      {
+        "area": "Svjetonazor",
+        "position": "Kršćanska demokracija i tradicionalne i katoličke vrijednosti"
       }
     ],
     "izbori": [
       {
-        "godina": 2020,
+        "godina": 2015,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Osvojili 8 mandata, koalicijski partner HDZ-u",
-        "obecanja": ["Reforma javne uprave", "Smanjenje broja agencija", "Antikorupcijske mjere"],
-        "ispunjeno": "Slabo ispunjeno — kao koalicijski partneri imali ograničen utjecaj, većina reformi nije provedena"
+        "rezultat": "Osvojili iznenađujućih 19 mandata, ključni za sastavljanje vlade (koalirali s HDZ-om).",
+        "obecanja": [
+          "Strukturne reforme",
+          "Smanjenje plaća saborskim zastupnicima",
+          "Isključivanje klijentelizma"
+        ],
+        "ispunjeno": "Natjerali HDZ i SDP na pregovore. Tražili nestranačkog premijera (Tim Orešković). Vlada neslavno propala zbog neusuglašenosti."
       },
       {
-        "godina": 2021,
-        "tip": "Lokalni izbori",
-        "rezultat": "Umjereni rezultati, zadržali uporišta u Dalmaciji",
-        "obecanja": ["Infrastrukturni razvoj Dalmacije", "Transparentnost lokalne vlasti"],
-        "ispunjeno": "Djelomično — neki infrastrukturni projekti pokrenuti, transparentnost poboljšana na lokalnoj razini"
+        "godina": 2016,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 13 mandata, ponovno išli s HDZ-om u koaliciju.",
+        "obecanja": [
+          "Jamstva reformi prije formiranja vlade",
+          "Ograničavanje utjecaja politike u firmama"
+        ],
+        "ispunjeno": "Izbačeni iz Vlade 2017. nakon što su glasali za opoziv ministra Marića zbog Agrokora. Postali žestoka oporba."
+      },
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 8 mandata, stabilno u oporbi.",
+        "obecanja": [
+          "Antikorupcija",
+          "Ukidanje HRT pretplate",
+          "Demokršćanske vrijednosti"
+        ],
+        "ispunjeno": "Kritizirali epidemiološke mjere (COVID) i tražili referendume, afirmirajući desno biračko tijelo."
       },
       {
         "godina": 2024,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Osvojili 11 mandata, ponovno koalicijski partner HDZ-u",
+        "rezultat": "Osvojili 11 mandata u koaliciji s Hrvatskim suverenistima.",
         "obecanja": [
-          "Reforma obrazovanja",
-          "Porezno rasterećenje građana",
-          "Digitalizacija uprave"
+          "Zaštita granica",
+          "Porezno rasterećenje matere i obitelji sa više djece",
+          "Prava na besplatne marende"
         ],
-        "ispunjeno": "Prerano za ocjenu — tek formirana vlada, ali povijesno slaba provedba obećanja iz pozicije koalicijskog partnera"
+        "ispunjeno": "Ostali dosljedna desna opozicija HDZ-DP vlasti."
       }
     ]
   },
   {
-    "name": "Domovinski pokret",
+    "name": "Domovinski pokret (DP)",
     "ideology": "Nacionalni konzervativizam / Desni populizam",
     "keyPolicies": [
       {
         "area": "Gospodarstvo",
-        "position": "Zaštita domaće proizvodnje, reindustrijalizacija, niži porezi za domaće poduzetnike"
+        "position": "Ekonomski patriotizam, zaštita domaće proizvodnje, reindustrijalizacija Poljoprivrede"
       },
       {
-        "area": "Zdravstvo",
-        "position": "Jačanje javnog zdravstva uz očuvanje tradicionalnih vrijednosti u medicinskoj etici"
+        "area": "Migracije i demografija",
+        "position": "Snažan naglasak na zaustavljanje imigracije i demografsku obnovu izvornog stanovništva"
       },
       {
-        "area": "Obrazovanje",
-        "position": "Nacionalni kurikulum, domoljubni odgoj, zaštita tradicionalnih vrijednosti u školstvu"
-      },
-      {
-        "area": "Okoliš",
-        "position": "Energetska neovisnost, podrška domaćim energetskim izvorima uključujući nuklearnu energiju"
-      },
-      {
-        "area": "Imigracija",
-        "position": "Stroga kontrola imigracije, zaštita granica, suverenitet u migracijskoj politici"
-      },
-      {
-        "area": "Vanjska politika",
-        "position": "Eurokritičnost, zaštita nacionalnog suvereniteta, kritika federalizacije EU-a"
+        "area": "Svjetonazor",
+        "position": "Izraziti nacionalizam, protivljenje ideološkim pritiscima izvana, antikomunizam"
       }
     ],
     "izbori": [
       {
         "godina": 2020,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Prvi nastup, osvojili 16 mandata pod vodstvom Miroslava Škore",
+        "rezultat": "Prvi nastup, osvojili 16 mandata, postali treća snaga u Saboru pod Miroslavom Škorom.",
         "obecanja": [
-          "Borba protiv korupcije",
-          "Zaštita nacionalnog identiteta",
-          "Reforma pravosuđa"
+          "Borba protiv korupcije HDZ-a",
+          "Zaštita nacionalnog suvereniteta",
+          "Ukidanje manjinskog utjecaja na osnivanje Vlade"
         ],
-        "ispunjeno": "U oporbi — obećanja nisu provedena, stranka prošla kroz unutarnje podjele i raskole"
-      },
-      {
-        "godina": 2021,
-        "tip": "Lokalni izbori",
-        "rezultat": "Skromni rezultati na lokalnim izborima",
-        "obecanja": ["Lokalna samouprava bliža građanima", "Zaustavljanje iseljavanja"],
-        "ispunjeno": "Minimalno ispunjeno — nije osvojila značajne lokalne pozicije"
+        "ispunjeno": "Ušli su u Sabor kao snažna desna opozicija, ali podijelili su se nedugo zatim (Škorin odlazak)."
       },
       {
         "godina": 2024,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Osvojili 14 mandata, dio vladajuće koalicije",
+        "rezultat": "Osvojili 14 mandata, postali presudan faktor i ušli u koalicijsku upravu s HDZ-om.",
         "obecanja": [
-          "Strožija imigracijska politika",
-          "Podrška hrvatskim braniteljima",
-          "Niži porezi"
+          "Vlada bez SDSS-a i Možemo!",
+          "Stroge mjere za rješenje migrantske krize",
+          "Povećanje studentskih i demografskih stipendija"
         ],
-        "ispunjeno": "Prerano za ocjenu — tek ušli u vladu, ali koalicijski kompromisi ograničavaju provedbu"
+        "ispunjeno": "Ostvarili su obećanje da SDSS neće sudjelovati u Vladinoj većini. Dobili su bitne resore (demografija, poljoprivreda), ali prolaze kroz unutarnja raslojavanja."
       }
     ]
   },
@@ -305,56 +407,342 @@
     "ideology": "Regionalizam / Socijalni liberalizam",
     "keyPolicies": [
       {
-        "area": "Gospodarstvo",
-        "position": "Decentralizacija, jačanje regionalne samouprave, podrška turizmu i lokalnom gospodarstvu"
-      },
-      {
-        "area": "Zdravstvo",
-        "position": "Dostupna zdravstvena skrb u svim regijama, decentralizacija zdravstvenog sustava"
-      },
-      {
-        "area": "Obrazovanje",
-        "position": "Višejezično obrazovanje, očuvanje regionalnih identiteta i kultura"
-      },
-      { "area": "Okoliš", "position": "Zaštita Jadrana i prirodnih resursa, održivi turizam" },
-      {
         "area": "Regionalna politika",
-        "position": "Fiskalna decentralizacija, veća autonomija županija i gradova"
+        "position": "Visok stupanj asimetrične decentralizacije i očuvanje istarskog identiteta"
       },
       {
-        "area": "Građanska prava",
-        "position": "Zaštita prava manjina, multikulturalnost, europske vrijednosti"
+        "area": "Gospodarstvo",
+        "position": "Turistički razvitak Istre, europske integracije i strana kapitalna ulaganja"
+      },
+      {
+        "area": "Ljudska prava",
+        "position": "Antifašizam, dvojezičnost, zaštita manjinskih i građanskih prava"
       }
     ],
     "izbori": [
       {
-        "godina": 2020,
+        "godina": 2000,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Osvojili 3 mandata u koaliciji",
+        "rezultat": "Osvojili 4 mandata, sudjelovali u vladi Ivice Račana (MIP).",
         "obecanja": [
           "Decentralizacija Hrvatske",
-          "Zaštita višejezičnosti u Istri",
-          "Razvoj istarskog turizma"
+          "Veća prava regijama"
         ],
-        "ispunjeno": "Djelomično — na regionalnoj razini uspješno zastupali interese Istre, ali nacionalna decentralizacija nije ostvarena"
+        "ispunjeno": "Konstantni pritisci za decentralizacijom uzrokovali trzavice u šestorci (napustili vlast 2001)."
       },
       {
-        "godina": 2021,
-        "tip": "Lokalni izbori",
-        "rezultat": "Dominacija u Istri, Boris Miletić reizabran za župana",
+        "godina": 2003,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili 4 mandata (koalicija SDP-IDS), ostali u oporbi.",
         "obecanja": [
-          "Održivi razvoj Istre",
-          "Zaštita okoliša i Jadrana",
-          "EU fondovi za lokalnu infrastrukturu"
+          "Obrane regionalnih projekata",
+          "Antifašističke vrijednosti"
         ],
-        "ispunjeno": "Većinom ispunjeno — Istra ostaje među najrazvijenijim regijama, uspješno korištenje EU fondova, ekološki projekti u tijeku"
+        "ispunjeno": "Apsolutna dominacija istarskom regijom se nastavila pod Ivanom Jakovčićem."
+      },
+      {
+        "godina": 2011,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Kao dio Kukuriku koalicije pobijedili s povijesnim rezultatom, vladina odgovornost (ministar turizma).",
+        "obecanja": [
+          "Istarski Y potpuni završetak",
+          "Opća ekonomska revitalizacija"
+        ],
+        "ispunjeno": "Aktivno sudjelovanje u donošenju državnih odluka uz lokalnu oprečnost vezano sa Uljanikom."
       },
       {
         "godina": 2024,
         "tip": "Parlamentarni izbori",
-        "rezultat": "Osvojili 1 mandat, smanjena parlamentarna prisutnost",
-        "obecanja": ["Nastavak borbe za decentralizaciju", "Zaštita regionalnih interesa"],
-        "ispunjeno": "Ograničen utjecaj na nacionalnoj razini zbog malog broja mandata, ali regionalno i dalje aktivni"
+        "rezultat": "Osvojili 2 mandata u koaliciji.",
+        "obecanja": [
+          "Zaštita regionalne slobode",
+          "Otpor centralističkim politikama",
+          "Besprijekorna primjena dvojezičnosti"
+        ],
+        "ispunjeno": "Stranka i dalje zadržava specifičnu težinu u Istri iako im podrška pomalo stagnira u korist mlađih regionalnih aktera."
+      }
+    ]
+  },
+  {
+    "name": "Hrvatska seljačka stranka (HSS)",
+    "ideology": "Agrarizam / Zeleni konzervativizam (povijesno)",
+    "keyPolicies": [
+      {
+        "area": "Poljoprivreda",
+        "position": "Obilne subvencije poljoprivrednicima, zaštita sela i obiteljskih gospodarstava (OPG)"
+      },
+      {
+        "area": "Gospodarstvo",
+        "position": "Umjereni protekcionizam, zaštita resursa zemlje od rasprodaje"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2000,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Kritična uloga: 24 mandata u koaliciji s HSLS/HNS/LS. Formirali vladu 6orke s Račanom.",
+        "obecanja": [
+          "Povrat selu",
+          "Gospodarenje šumama",
+          "Zlatne godine hrvatske poljoprivrede"
+        ],
+        "ispunjeno": "HSS je kontrolirao Sabor i bitna ministarstva, jako oporavili obrtnički i poljoprivredni sektor središnje Hrvatske."
+      },
+      {
+        "godina": 2007,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Koalicija HSS-HSLS osvojila 8 mandata, ušli u desnu Vladu Ive Sanadera.",
+        "obecanja": [
+          "Aktivna i uravnotežena socijalno-ruralna politika",
+          "Zaštita Jadranskog pojasa ZERP-om"
+        ],
+        "ispunjeno": "Dobili ogromne potpore za farmere, ali kasniji financijski prekršaji u Vladi bacili sumnju na stranku."
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osigurali 1 mandat kroz koaliciju sa SDP-om (Rijeke pravde).",
+        "obecanja": [
+          "Borba protiv korupcije",
+          "Zeleni ruralizam"
+        ],
+        "ispunjeno": "Preživljavaju dominantno kroz platforme većih partnera."
+      }
+    ]
+  },
+  {
+    "name": "Hrvatska socijalno-liberalna stranka (HSLS)",
+    "ideology": "Liberalizam / Konzervativni liberalizam",
+    "keyPolicies": [
+      {
+        "area": "Gospodarstvo",
+        "position": "Čisti zapadni kapitalizam, rezanje birokracije, porezni zahvati za rasterećenje biznisa"
+      },
+      {
+        "area": "Ljudska prava",
+        "position": "Liberalni svjetonazor sa zaštitom manjina, ranije naglašavanje intelektualnih struja"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2000,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Uspjeh s SDP-om (Dražen Budiša koalicija). 25 mandata, druga snaga Vlade.",
+        "obecanja": [
+          "Revizija pretvorbe",
+          "Oslobađanje sloboda"
+        ],
+        "ispunjeno": "Brzo napustili vladu zbog sukoba sa SDP-om oko međunarodne politike, doživjeli rascjep (Liberalna stranka, Libra)."
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Dobili 2 mandata unutar vladajuće koalicije s HDZ-om (pod Darijom Hrebakom).",
+        "obecanja": [
+          "Digitalni i transparentni gradovi",
+          "Makroekonomska liberalizacija"
+        ],
+        "ispunjeno": "Dosljedni, stabilni podžupanski koalicijski partner na Bjelovarskom području bez velikog skandala."
+      }
+    ]
+  },
+  {
+    "name": "Hrvatska narodna stranka - liberalni demokrati (HNS)",
+    "ideology": "Liberalizam",
+    "keyPolicies": [
+      {
+        "area": "Razvoj",
+        "position": "Snažna infrastrukturna izgradnja (graditeljstvo, POS stanovi)"
+      },
+      {
+        "area": "Obrazovanje",
+        "position": "Reforma obrazovanja, tehnološki parkovi, 'kurikularna reforma'"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2000,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "2 mandata u Zastupničkom domu, dio vladajuće koalicije (Radimir Čačić ministar graditeljstva).",
+        "obecanja": [
+          "Državna stanogradnja",
+          "Infrastrukturni bum - Autoceste"
+        ],
+        "ispunjeno": "Jedna od najbržih mreža izgradnje autocesta (A1 od Zagreba prema jugu započeo ozbiljno pod ovom vladom)."
+      },
+      {
+        "godina": 2011,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Ključni igrač Kukuriku koalicije. Osvojili 14 mandata (Vesna Pusić, R. Čačić).",
+        "obecanja": [
+          "Završetak integracija u EU",
+          "Energetski boom i investicije"
+        ],
+        "ispunjeno": "Sektor pretrpio neuspjeh Plomina C, V. Pusić preuzela vanjske poslove."
+      },
+      {
+        "godina": 2016,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili manjinski broj, potom okrenuli kaput prešavši HDZ-u nakon raspada Most-a.",
+        "obecanja": [
+          "Kurikularna reforma (Škola za život)"
+        ],
+        "ispunjeno": "Uzrok revolta ljevice, ali progurali limitiranu edukacijsku reformu. 2024 gurnuti na političku marginu sa 1 mandatom."
+      }
+    ]
+  },
+  {
+    "name": "Hrvatska stranka prava (HSP)",
+    "ideology": "Krajnja desnica / Nacionalizam",
+    "keyPolicies": [
+      {
+        "area": "Državno uređenje",
+        "position": "Odbijanje međunarodnog tribunala (Hag), lustracija komunističkih vođa"
+      },
+      {
+        "area": "Euroskepticizam",
+        "position": "Poništavanje sporazuma koji narušavaju državni integritet, granice iz 1991."
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2003,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Ostvarili solidan rezultat, osvojili 8 mandata pod Antom Đapićem.",
+        "obecanja": [
+          "Nećemo u pregovore rasprodajući Hrvatsku",
+          "Pravni red bez Haaga"
+        ],
+        "ispunjeno": "Nikada u vladi, ali na vrhuncu su dominirali radikalnim desnim spektrom."
+      },
+      {
+        "godina": 2007,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Drastičan pad na 1 mandat (raspadi stranke: HSP AS, HČSP).",
+        "obecanja": [
+          "Opstanak nacije"
+        ],
+        "ispunjeno": "Stranka se fragmentirala i danas je van dometa prelaženja izbornog praga na nacionalnoj razini."
+      }
+    ]
+  },
+  {
+    "name": "Živi zid",
+    "ideology": "Euroskepticizam / Populizam / Anti-establišment",
+    "keyPolicies": [
+      {
+        "area": "Financije",
+        "position": "Brisanje nezakonitih kredita (švicarci), suprotstavljanje bankarskom lobiju"
+      },
+      {
+        "area": "Ljudska prava i deložacije",
+        "position": "Obrane vlasnika nekretnina fizičkim zaustavljanjem ovršnih procesa banaka"
+      },
+      {
+        "area": "Vanjska",
+        "position": "Strogi izlazak iz Europske Unije i NATO-a"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2015,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Ušli sa 1 mandatom (Ivan Vilibor Sinčić), započeli anti-establišment pobunu.",
+        "obecanja": [
+          "Protiv ovrha banaka",
+          "Tiskane novčanice po principu suvereniteta"
+        ],
+        "ispunjeno": "Uveli temu ovrha u mainstreame, ali su zakonski instrumentariji išli mimo njih."
+      },
+      {
+        "godina": 2016,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Uz rastuću popularnost osvojili čak 8 mandata.",
+        "obecanja": [
+          "Bojkot stranih institucija i establishment partija"
+        ],
+        "ispunjeno": "Zbog unutarnjih tenzija podijelili su se nakon EU izbora (Ivan Pernar Stranka, Ključ) te nestali iz politike 2020/2024."
+      }
+    ]
+  },
+  {
+    "name": "Samostalna demokratska srpska stranka (SDSS)",
+    "ideology": "Prava srpske nacionalne manjine / Socijaldemokracija",
+    "keyPolicies": [
+      {
+        "area": "Manjinska prava",
+        "position": "Kulturna autonomija, uvođenje dvojezičnih natpisa, podrška u ruralnim sredinama"
+      },
+      {
+        "area": "Infrastruktura",
+        "position": "Obustavljanje zanemarivanja bivših vojno-krajinskih ruralnih dijelova Hrvatske (struja, voda)"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2003,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Osvojili obvezna manjinska 3 mandata. Započeli suradnju i pakt sa HDZ-om Sanaderom.",
+        "obecanja": [
+          "Povratak izbjeglih",
+          "Politička pomirba HDZ-a i srpske manjine"
+        ],
+        "ispunjeno": "Dali su legitimnost HDZ-u pred Europom; počeo povrat dijela obiteljskih imovina."
+      },
+      {
+        "godina": 2020,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Održali 3 mandata (Milorad Pupovac, Snježana Šteković, Dragana Jeckov). Boris Milošević postao prvi manjinski potpredsjednik Vlade HR.",
+        "obecanja": [
+          "Obnova potresom pogođene Banije i manjinama dostupna financiranja",
+          "Uzak Pakt s Plenkovićem"
+        ],
+        "ispunjeno": "Uspješno poticali toleranciju, obilježavajući žrtve s obiju strana ('Oluja' mirnija), uz kontinuirane napade desnice."
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Zadržali 3 mandata unatoč kampanji desnice, ali po uvjetu DP-a HDZ ih je maknuo iz Vlade.",
+        "obecanja": [
+          "Obrane multikulturalnosti",
+          "Zaštita napadnutih aktivista"
+        ],
+        "ispunjeno": "Prešli su u parlamentarnu tihu suradnju s HDZ-om ali više nemaju resore."
+      }
+    ]
+  },
+  {
+    "name": "Socijaldemokrati",
+    "ideology": "Socijaldemokracija / Umjerena ljevica",
+    "keyPolicies": [
+      {
+        "area": "Gospodarstvo",
+        "position": "Blaga reforma radničkih normi i visine prihoda građana, manje agresivan pristup od Možemo!"
+      },
+      {
+        "area": "Društvo",
+        "position": "Moderne slobode sa smanjenim političkom polarizacijom; 'Pristojna Ljevica'"
+      }
+    ],
+    "izbori": [
+      {
+        "godina": 2021,
+        "tip": "Rascjep stranke (ne izbori)",
+        "rezultat": "Odvojili se od SDP-a. Postali najveći oporbeni klub u Saboru sa 18 bivših SDP mandata.",
+        "obecanja": [
+          "Zadržati dostojanstvo",
+          "Konstruktivna politika prema narodu"
+        ],
+        "ispunjeno": "Zadržali umjereni profil dok se borba sa SDP-om rasplela na 2024."
+      },
+      {
+        "godina": 2024,
+        "tip": "Parlamentarni izbori",
+        "rezultat": "Katastrofa - Nisu uspjeli sačuvati nijedan od svojih početnih mandata i ispali iz sabora.",
+        "obecanja": [
+          "Dobar radnik ima dobre prilike"
+        ],
+        "ispunjeno": "Raspuštanje političkog saveza pod teretom biračke bezbrojnosti SDP-a."
       }
     ]
   }

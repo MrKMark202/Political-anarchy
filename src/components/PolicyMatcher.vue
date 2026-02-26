@@ -33,6 +33,37 @@ function getAlignmentLabel(score: number): string {
   if (score >= 25) return 'NISKA'
   return 'MINIMALNA'
 }
+
+const expandedParties = ref<Set<string>>(new Set())
+
+function togglePartyDetails(partyName: string) {
+  const newSet = new Set(expandedParties.value)
+  if (newSet.has(partyName)) {
+    newSet.delete(partyName)
+  } else {
+    newSet.add(partyName)
+  }
+  expandedParties.value = newSet
+}
+
+function getPartyDetails(partyName: string) {
+  const nameMatch = partyName.toLowerCase()
+  return partiesData.find(p => p.name.toLowerCase().includes(nameMatch) || nameMatch.includes(p.name.toLowerCase()))
+}
+
+function getPartyColor(partyName: string): string {
+  const name = partyName.toUpperCase()
+  if (name.includes('HDZ')) return '#004277'
+  if (name.includes('SDP')) return '#ED1C24'
+  if (name.includes('MOŽEMO')) return '#99C121'
+  if (name.includes('IDS')) return '#00A14B'
+  if (name.includes('NPS')) return '#F39200'
+  if (name.includes('MOST')) return '#F68B1F'
+  if (name.includes('DOMOVINSKI') || name.includes('DP')) return '#111111'
+  if (name.includes('HSS')) return '#007A33'
+  if (name.includes('HSLS')) return '#F2A900'
+  return '#333333'
+}
 </script>
 
 <template>
@@ -116,8 +147,8 @@ function getAlignmentLabel(score: number): string {
         </div>
       </div>
 
-      <!-- Table Header -->
-      <div class="grid grid-cols-12 gap-4 border-b border-black pb-3 mb-0">
+      <!-- Table Header (Hidden on Mobile) -->
+      <div class="hidden md:grid grid-cols-12 gap-4 border-b border-black pb-3 mb-0">
         <div class="col-span-1 text-xs tracking-[0.15em] uppercase text-slate-light font-medium">
           #
         </div>
@@ -139,31 +170,47 @@ function getAlignmentLabel(score: number): string {
       <div
         v-for="(item, index) in results"
         :key="item.party"
-        class="grid grid-cols-12 gap-4 border-b border-border-light py-5 hover:bg-bg-hover transition-colors"
+        class="border-b border-border-light py-5 hover:bg-bg-hover transition-colors"
       >
+        <div class="flex flex-col md:grid md:grid-cols-12 gap-6 md:gap-4">
         <!-- Rank -->
-        <div class="col-span-1">
+        <div class="md:col-span-1 hidden md:block">
           <span class="text-2xl font-bold text-slate-light/40">{{
             String(index + 1).padStart(2, '0')
           }}</span>
         </div>
 
-        <!-- Party -->
-        <div class="col-span-2">
-          <div class="text-sm font-bold tracking-wide">{{ item.party }}</div>
+        <!-- Header / Mobile Name -->
+        <div class="md:hidden flex items-center justify-between border-b border-black/5 pb-3">
+          <span class="text-xl font-bold text-slate-light/40">#{{ index + 1 }}</span>
+          <div class="flex items-center">
+            <div class="w-1.5 h-1.5 rounded-full mr-2" :style="{ backgroundColor: getPartyColor(item.party) }"></div>
+            <div class="text-sm font-bold tracking-wide leading-tight">{{ item.party }}</div>
+          </div>
+        </div>
+
+        <!-- Party (Desktop) -->
+        <div class="md:col-span-2 hidden md:block">
+          <div class="flex items-start">
+            <div class="w-1 h-5 mt-0 mr-2 shrink-0" :style="{ backgroundColor: getPartyColor(item.party) }"></div>
+            <div class="text-sm font-bold tracking-wide leading-tight">{{ item.party }}</div>
+          </div>
         </div>
 
         <!-- Alignment -->
-        <div class="col-span-2">
+        <div class="md:col-span-2">
           <div class="flex flex-col gap-2">
-            <span class="text-2xl font-bold"
-              >{{ item.alignment }}<span class="text-sm text-slate-light">%</span></span
-            >
+            <div class="flex items-baseline gap-2 md:block">
+              <span class="md:hidden text-[9px] uppercase tracking-widest text-slate-light mb-1">Podudarnost:</span>
+              <span class="text-2xl font-bold"
+                >{{ item.alignment }}<span class="text-sm text-slate-light">%</span></span
+              >
+            </div>
             <span class="text-[10px] tracking-[0.2em] uppercase text-slate-light">{{
               getAlignmentLabel(item.alignment)
             }}</span>
             <!-- Bar -->
-            <div class="w-full h-[2px] bg-border-light">
+            <div class="w-full h-[2px] bg-border-light mt-1">
               <div
                 class="h-full bg-black transition-all duration-700 ease-out"
                 :style="{ width: item.alignment + '%' }"
@@ -173,16 +220,19 @@ function getAlignmentLabel(score: number): string {
         </div>
 
         <!-- Reliability -->
-        <div class="col-span-2">
+        <div class="md:col-span-2">
           <div class="flex flex-col gap-2">
-            <span class="text-2xl font-bold"
-              >{{ item.reliability }}<span class="text-sm text-slate-light">%</span></span
-            >
+            <div class="flex items-baseline gap-2 md:block">
+              <span class="md:hidden text-[9px] uppercase tracking-widest text-slate-light mb-1">Pouzdanost:</span>
+              <span class="text-2xl font-bold"
+                >{{ item.reliability }}<span class="text-sm text-slate-light">%</span></span
+              >
+            </div>
             <span class="text-[10px] tracking-[0.2em] uppercase text-slate-light">{{
               getAlignmentLabel(item.reliability)
             }}</span>
             <!-- Bar -->
-            <div class="w-full h-[2px] bg-border-light">
+            <div class="w-full h-[2px] bg-border-light mt-1">
               <div
                 class="h-full bg-slate-light transition-all duration-700 ease-out"
                 :style="{ width: item.reliability + '%' }"
@@ -192,7 +242,7 @@ function getAlignmentLabel(score: number): string {
         </div>
 
         <!-- Explanation -->
-        <div class="col-span-5">
+        <div class="md:col-span-5">
           <div class="flex flex-col gap-4">
             <div>
               <span
@@ -208,8 +258,51 @@ function getAlignmentLabel(score: number): string {
               >
               <p class="text-sm text-slate leading-relaxed">{{ item.reliabilityExplanation }}</p>
             </div>
+            
+            <button 
+              v-if="getPartyDetails(item.party)"
+              @click="togglePartyDetails(item.party)"
+              class="self-start mt-2 border-b border-black text-[9px] uppercase tracking-[0.2em] font-bold text-black pb-0.5 hover:text-slate-light hover:border-slate-light transition-colors"
+            >
+              {{ expandedParties.has(item.party) ? 'Zatvori povijest stranke' : 'Prikaži povijest stranke' }}
+            </button>
           </div>
         </div>
+        </div> <!-- End of grid row -->
+
+        <!-- Expanded History -->
+        <div 
+          v-if="expandedParties.has(item.party) && getPartyDetails(item.party)" 
+          class="mt-6 mb-2 pl-4 border-l-2 ml-1" 
+          :style="{ borderColor: getPartyColor(item.party) }"
+        >
+          <div class="bg-[#fcfcfc] border border-border-light p-6">
+            <div class="flex items-center gap-3 mb-6 border-b border-border-light pb-4">
+               <span class="text-xs tracking-widest uppercase font-black">Izborna povijest: {{ getPartyDetails(item.party)?.name }}</span>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+              <div v-for="izbor in getPartyDetails(item.party)?.izbori" :key="izbor.godina || 'unknown'" class="border-t border-black/10 pt-4">
+                <div class="flex justify-between items-baseline mb-2">
+                  <span class="text-sm font-black">{{izbor.godina}}.</span>
+                  <span class="text-[9px] uppercase tracking-widest text-slate-light font-bold">{{izbor.tip}}</span>
+                </div>
+                <p class="text-[11px] font-bold mb-3 leading-snug">{{izbor.rezultat}}</p>
+                <div class="mb-3">
+                  <span class="text-[9px] uppercase tracking-wider text-slate-light block mb-1">Obećanja</span>
+                  <ul class="list-none text-[10px] text-slate space-y-1">
+                    <li v-for="ob in (izbor.obecanja || [])" :key="ob" class="flex gap-2 items-start"><span class="w-1 h-1 bg-black shrink-0 mt-1.5"></span><span>{{ ob }}</span></li>
+                  </ul>
+                </div>
+                <div>
+                  <span class="text-[9px] uppercase tracking-wider text-slate-light block mb-1">Ispunjeno</span>
+                  <p class="text-[10px] text-slate leading-relaxed">{{izbor.ispunjeno}}</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
       </div>
 
       <!-- Footer -->
